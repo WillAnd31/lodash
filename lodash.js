@@ -6687,7 +6687,7 @@
      * @since 3.0.0
      * @category Array
      * @param {Array} array The array to slice.
-     * @param {number} [start=0] The start position.
+     * @param {number} [start=0] The start position. Negative values allow starting relative to the end of the array.
      * @param {number} [end=array.length] The end position.
      * @returns {Array} Returns the slice of `array`.
      */
