@@ -6217,8 +6217,8 @@
     /**
      * Creates a slice of `array` from `start` up to, but not including, `end`.
      *
-     * **Note:** This method is used instead of [`Array#slice`](https://mdn.io/Array/slice)
-     * to ensure dense arrays are returned.
+     * **Note:** This method is based on [`Array#slice`](https://mdn.io/Array/slice),
+     * but uses our own implementation to ensure dense arrays are returned.
      *
      * @static
      * @memberOf _
